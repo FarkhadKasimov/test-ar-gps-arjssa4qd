@@ -28,11 +28,10 @@
                     animation-mixer="loop: repeat"
                     gltf-model="#animated-asset"
                     scale="1.982396985689398 1.982396985689398 1.982396985689398"
-                    arjs-look-controls="smoothingFactor: 0.1"
                     gps-entity-place="latitude: 41.278466490616125; longitude: -290.8045724127442;"
                 ></a-entity>
 
-            <a-camera gps-camera rotation-reader></a-camera>
+            <a-camera gps-camera rotation-reader look-controls-enabled='false' arjs-look-controls='smoothingFactor: 0.1'></a-camera>
         </a-scene>
     </body>
 </html>
